@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables & secrets
+.env
+*.env
+**/.env
+**/*.env
+
+# Build outputs
+dist/
+build/
+.vite/
+**/dist/
+**/build/
+**/.vite/
+
+# Logs
+*.log
+**/logs
+**/*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
